@@ -2,6 +2,8 @@
 
 A local lab test by Varselio, 23 November 2026, Europe/Stockholm.
 
+> **New home:** this and later rounds, including a 24 Nov 2026 test of 12 open-source guardrails, are at [Varselio-se/guardrail-benchmarks](https://github.com/Varselio-se/guardrail-benchmarks).
+
 NVIDIA NeMo Guardrails already gives teams conversation rails: checks on what goes into and out of a model. Varselio is built to sit on top of that stack and check the action an agent tries next — a refund, a data lookup, an account change, and similar tool use. This write-up reports a head-to-head on the same cases: free NeMo Guardrails used alone, then the same rails with Varselio added.
 
 We are not competing with NeMo Guardrails. Conversation rails and an independent action check do different jobs, and they work together.
